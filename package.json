@@ -1,0 +1,12 @@
+{
+  "name": "gera",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "build": "tailwind -i ./css/style.css -o ./css/main.css",
+    "watch": "tailwind -i ./css/style.css -o ./css/main.css --watch"
+  },
+  "author": "",
+  "license": "ISC"
+}
